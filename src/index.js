@@ -1,4 +1,9 @@
+// Style imports
 import "./css/normalize.css";
 import "./css/styles.css";
 
-console.log("Hello World");
+// Script imports
+import loadHome from "./load-home.js";
+
+// Load the home page upon init
+loadHome();
