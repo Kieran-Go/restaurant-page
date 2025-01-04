@@ -5,6 +5,12 @@ export default function loadHome(){
     // Init the content container
     const content = document.getElementById("content");
 
+    // Reset content innerHTML
+    content.innerHTML = "";
+
+    // Set content bg color
+    content.style.backgroundColor = "rgb(54, 66, 122)";
+
     // Create header
     const headerText = "Welcome to Harvest Table";
     content.appendChild(util.newHTML("h1", headerText, "span-columns"));
