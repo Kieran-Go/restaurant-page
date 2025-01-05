@@ -7,8 +7,9 @@ export default function loadAbout(){
     // Reset content innerHTML
     content.innerHTML = "";
 
-    // Set content bg color
+    // Set content bcolors
     content.style.backgroundColor = "rgb(0, 0, 0, 0.75)";
+    content.style.color = "white";
 
     // Create header
     const headerText = "Contact";

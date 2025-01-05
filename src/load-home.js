@@ -8,8 +8,9 @@ export default function loadHome(){
     // Reset content innerHTML
     content.innerHTML = "";
 
-    // Set content bg color
+    // Set content colors
     content.style.backgroundColor = "rgb(54, 66, 122)";
+    content.style.color = "white";
 
     // Create header
     const headerText = "Welcome to Harvest Table";
@@ -48,7 +49,7 @@ export default function loadHome(){
     }
     timingDiv.appendChild(timeLinesLeft);
 
-    const timeText = util.newHTML("div", "", "p-lines");
+    const timeText = util.newHTML("div", "", "p-timing");
     timeText.appendChild(util.newHTML("p", "Mon - Thu: 9am to 9pm"));
     timeText.appendChild(util.newHTML("p", "Friday: 9am to 12pm"));
     timeText.appendChild(util.newHTML("p", "Sat & Sun : 12pm to 12pm"));
